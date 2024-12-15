@@ -119,11 +119,7 @@ Dynamic Action Space (ongoing)</li>
 		  <tr onmouseout="inr_stop()" onmouseover="inr_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='inr_image'><video  width=100% muted autoplay loop>
-          <source src="images/inr.jpg" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/inr.jpg' width=100%>
+          <img src='images/inr.png' width=100%>
         </div>
         <script type="text/javascript">
           function inr_start() {
@@ -153,24 +149,20 @@ Dynamic Action Space (ongoing)</li>
       </td>
     </tr>
 
-<tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()">
+<tr onmouseout="air_start()" onmouseover="air_stop()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='cat3d_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/cat3d.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/cat3d.jpg' width="160">
+          <img src='images/air.png' width="160">
         </div>
         <script type="text/javascript">
-          function cat3d_start() {
-            document.getElementById('cat3d_image').style.opacity = "1";
+          function air_start() {
+            document.getElementById('air_image').style.opacity = "1";
           }
 
-          function cat3d_stop() {
-            document.getElementById('cat3d_image').style.opacity = "0";
+          function air_stop() {
+            document.getElementById('air_image').style.opacity = "0";
           }
-          cat3d_stop()
+          air_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -191,24 +183,23 @@ Dynamic Action Space (ongoing)</li>
       </td>
     </tr>
 
-		  <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
+		  <tr onmouseout="gs_stop()" onmouseover="gs_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='flash_cache_image'><video  width=100% muted autoplay loop>
-          <source src="images/flash_cache.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/flash_cache.jpg' width=100%>
+          <div class="two" id='gs_image_after'>
+		  <img src='images/gs_after.png' width=100%>
+	  </div>
+          <img src='images/gs_before.png' width=100%>
         </div>
         <script type="text/javascript">
-          function flash_cache_start() {
-            document.getElementById('flash_cache_image').style.opacity = "1";
+          function gs_start() {
+            document.getElementById('gs_image_after').style.opacity = "1";
           }
 
-          function flash_cache_stop() {
-            document.getElementById('flash_cache_image').style.opacity = "0";
+          function gs_stop() {
+            document.getElementById('gs_image_after').style.opacity = "0";
           }
-          flash_cache_stop()
+          gs_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -229,24 +220,20 @@ Dynamic Action Space (ongoing)</li>
       </td>
     </tr>
 
-		  <tr onmouseout="bog_stop()" onmouseover="bog_start()">
+		  <tr onmouseout="gta_start()" onmouseover="gta_stop()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='bog_image'><video  width=100% muted autoplay loop>
-          <source src="images/bog.jpg" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/bog.jpg' width=100%>
+          <img src='images/gta.png' width=100%, id='gta_image'>
         </div>
         <script type="text/javascript">
-          function bog_start() {
-            document.getElementById('bog_image').style.opacity = "1";
+          function gta_start() {
+            document.getElementById('gta_image').style.opacity = "1";
           }
 
-          function bog_stop() {
-            document.getElementById('bog_image').style.opacity = "0";
+          function gta_stop() {
+            document.getElementById('gta_image').style.opacity = "0";
           }
-          bog_stop()
+          gta_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -268,24 +255,24 @@ Dynamic Action Space (ongoing)</li>
         </p>
       </td>
     </tr>
- <tr onmouseout="shinobi_stop()" onmouseover="shinobi_start()" >
+ <tr onmouseout="midas_stop()" onmouseover="midas_start()" >
     <td style="padding:20px;width:25%;vertical-align:middle">
       <div class="one">
-        <div class="two" id='shinobi_image'><video  width=100% height=100% muted autoplay loop>
-        <source src="images/shinobi.mp4" type="video/mp4">
+        <div class="two" id='midas_image'><video  width=100% height=100% muted autoplay loop>
+        <source src="images/midas.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video></div>
-        <img src='images/shinobi.jpg' width="160">
+        <img src='images/midas.png' width="160">
       </div>
       <script type="text/javascript">
-        function shinobi_start() {
-          document.getElementById('shinobi_image').style.opacity = "1";
+        function midas_start() {
+          document.getElementById('midas_image').style.opacity = "1";
         }
 
-        function shinobi_stop() {
-          document.getElementById('shinobi_image').style.opacity = "0";
+        function midas_stop() {
+          document.getElementById('midas_image').style.opacity = "0";
         }
-        shinobi_stop()
+        midas_stop()
       </script>
     </td>
     <td style="padding:20px;width:75%;vertical-align:middle">
