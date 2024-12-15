@@ -428,24 +428,20 @@ Dynamic Action Space (ongoing)</li>
     </tr>
 
 
-    <tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
+    <tr onmouseout="sherpa_stop()" onmouseover="sherpa_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='nerfcasting_image'><video  width=100% muted autoplay loop>
-          <source src="images/nerfcasting.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/nerfcasting.jpg' width=100%>
+          <img src='images/sherpa.png' width=100%>
         </div>
         <script type="text/javascript">
-          function nerfcasting_start() {
-            document.getElementById('nerfcasting_image').style.opacity = "1";
+          function sherpa_start() {
+            document.getElementById('sherpa_image').style.opacity = "1";
           }
 
-          function nerfcasting_stop() {
-            document.getElementById('nerfcasting_image').style.opacity = "0";
+          function sherpa_stop() {
+            document.getElementById('sherpa_image').style.opacity = "0";
           }
-          nerfcasting_stop()
+          sherpa_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
