@@ -152,15 +152,18 @@ Dynamic Action Space (ongoing)</li>
 <tr onmouseout="air_start()" onmouseover="air_stop()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/air.png' width="160">
+		 <div class="two" id='air_image_after'>
+			<img src='images/air_after.png' width=100%>
+		  </div>
+          <img src='images/air.png' width=100%>
         </div>
         <script type="text/javascript">
           function air_start() {
-            document.getElementById('air_image').style.opacity = "1";
+            document.getElementById('air_image_after').style.opacity = "1";
           }
 
           function air_stop() {
-            document.getElementById('air_image').style.opacity = "0";
+            document.getElementById('air_image_after').style.opacity = "0";
           }
           air_stop()
         </script>
@@ -223,15 +226,18 @@ Dynamic Action Space (ongoing)</li>
 		  <tr onmouseout="gta_start()" onmouseover="gta_stop()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
+		<div class="two" id='gta_image_after'>
+		  <img src='images/gta_after.png' width=100%>
+	  	</div>
           <img src='images/gta.png' width=100%, id='gta_image'>
         </div>
         <script type="text/javascript">
           function gta_start() {
-            document.getElementById('gta_image').style.opacity = "1";
+            document.getElementById('gta_image_after').style.opacity = "1";
           }
 
           function gta_stop() {
-            document.getElementById('gta_image').style.opacity = "0";
+            document.getElementById('gta_image_after').style.opacity = "0";
           }
           gta_stop()
         </script>
@@ -258,19 +264,22 @@ Dynamic Action Space (ongoing)</li>
  <tr onmouseout="midas_stop()" onmouseover="midas_start()" >
     <td style="padding:20px;width:25%;vertical-align:middle">
       <div class="one">
-        <div class="two" id='midas_image'><video  width=100% height=100% muted autoplay loop>
+<!--         <div class="two" id='midas_image'><video  width=100% height=100% muted autoplay loop>
         <source src="images/midas.mp4" type="video/mp4">
         Your browser does not support the video tag.
-        </video></div>
+        </video></div> -->
+	<div class="two" id='midas_image_after'>
+		  <img src='images/midas_after.png' width=100%>
+	  	</div>
         <img src='images/midas.png' width="160">
       </div>
       <script type="text/javascript">
         function midas_start() {
-          document.getElementById('midas_image').style.opacity = "1";
+          document.getElementById('midas_image_after').style.opacity = "1";
         }
 
         function midas_stop() {
-          document.getElementById('midas_image').style.opacity = "0";
+          document.getElementById('midas_image_after').style.opacity = "0";
         }
         midas_stop()
       </script>
