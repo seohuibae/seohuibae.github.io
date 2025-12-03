@@ -136,7 +136,42 @@
             </tr>
           </tbody></table>
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-	
+	<tr onmouseout="bee_stop()" onmouseover="bee_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/concept_aaa.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function bee_start() {
+            document.getElementById('bee_image').style.opacity = "1";
+          }
+
+          function bee_stop() {
+            document.getElementById('bee_image').style.opacity = "0";
+          }
+          bee_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        
+          <span class="papertitle">Align as Act: Innovation-Based Policy Optimization for Embodied Agents
+</span>
+
+        <br>
+		<a href="https://seohuibae.github.io/" style="color: black; text-decoration: none;"><strong>Seohui Bae</strong></a>, <a href="https://www.beanie00.com/" style="color: black; text-decoration: none;">Jeonghye Kim</a>, <a href="https://sites.google.com/view/youngchulsung" style="color: black; text-decoration: none;">Youngchul Sung</a>, <a href="https://sites.google.com/view/woohyunglim" style="color: black; text-decoration: none;">Woohyung Lim</a>
+        <br>
+        <!-- <em>under review</em> -->
+	<br>
+	preprint, 2025
+        <a href="">[pdf]</a>
+        <p></p>
+        <p>
+	An online RL for innovation processes as a stable information-gain signal under partial observability.<br />
+        keyword: policy optimization, innovation process, embodied agents
+        </p>
+      </td>
+    </tr>
+
 	<tr onmouseout="bee_stop()" onmouseover="bee_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -154,17 +189,17 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://openreview.net/forum?id=0PY5DpCb6f&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2025%2FWorkshop%2FEXAIT%2FAuthors%23your-submissions)">
+        
           <span class="papertitle">Align While Search: Belief-Guided Exploratory Inference for Test-Time World Alignment
 </span>
-        </a>
+      
         <br>
 		<a href="https://seohuibae.github.io/" style="color: black; text-decoration: none;"><strong>Seohui Bae</strong></a>, <a href="https://www.beanie00.com/" style="color: black; text-decoration: none;">Jeonghye Kim</a>, <a href="https://sites.google.com/view/youngchulsung" style="color: black; text-decoration: none;">Youngchul Sung</a>, <a href="https://sites.google.com/view/woohyunglim" style="color: black; text-decoration: none;">Woohyung Lim</a>
         <br>
         <!-- <em>under review</em> -->
 	<br>
 	ICML Workshop on Exploration in AI Today, 2025
-        <br>
+        <a href="https://openreview.net/forum?id=0PY5DpCb6f&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2025%2FWorkshop%2FEXAIT%2FAuthors%23your-submissions)">[pdf]</a>
         <p></p>
         <p>
 	A training-free LLM agent that aligns with hidden world states via language-driven Bayesian inference. <br />
@@ -173,8 +208,7 @@
       </td>
     </tr>
 
-
-	<!-- <tr onmouseout="auf_stop()" onmouseover="auf_start()">
+	<tr onmouseout="auf_stop()" onmouseover="auf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <img src='images/concept_auf.png' width=100%>
@@ -191,14 +225,12 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="">
           <span class="papertitle">Language-Agent Forecasting with World-Model Surrogates under Delayed Feedback
 </span>
-        </a>
         <br>
-		<a href="https://seohuibae.github.io/" style="color: black; text-decoration: none;"><strong>Seohui Bae</strong></a>, Jun Seo, Sangjun Han, Soyeon Park, Junhyeok Kang, Hyeokjun Choe, Woohyung Lim, <a href="https://openreview.net/profile?id=~Soonyoung_Lee1" style="color: black; text-decoration: none;">Soonyoung Lee</a>
-        <br>
-        <em>preprint</em>
+		<a href="https://seohuibae.github.io/" style="color: black; text-decoration: none;"><strong>Seohui Bae</strong></a>, Sangjun Han, Junhyeok Kang, Soyeon Park, Hyeokjun Choe, Woohyung Lim, <a href="https://openreview.net/profile?id=~Soonyoung_Lee1" style="color: black; text-decoration: none;">Soonyoung Lee</a>
+        <em>preprint, 2025</em>
+		<a href="">[pdf]</a>
         <p></p>
         <p>
 	Test-time forecasting with a language agent that queries a world-model surrogate under delayed feedback. <br />
@@ -224,21 +256,20 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="">
           <span class="papertitle">Geometry-Aware Normalization for Imbalanced Time-series Forecasting
 </span>
-        </a>
         <br>
 		<a href="https://seohuibae.github.io/" style="color: black; text-decoration: none;"><strong>Seohui Bae</strong></a>, Junhyeok Kang, Jun Seo, Soyeon Park, Wonbin Ahn, Soonyoung Lee
-        <br>
-        <em>preprint</em>
+
+        <em>preprint, 2025</em>
+		<a href="">[pdf]</a>
         <p></p>
         <p>
-	A geometry-aware normalization that preserves order & arc-length to fix tail errors under long-tailed TSF. <br />
+	Address long-tail and boundedness problem in time-series via shaping representation arc-length and ordering.. <br />
         keyword: time-series, imbalance, normalization, tail-robustness
         </p>
       </td>
-    </tr> -->
+    </tr>
 
 	</tbody></table>
 	
