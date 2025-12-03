@@ -96,6 +96,15 @@ h2 {
   font-size: 22px;
 }
 
+
+.one {
+  display: flex;
+  align-items: center;      /* 세로 가운데 */
+  justify-content: center;  /* 가로 가운데 (필요 없으면 빼도 됨) */
+  height: 100%;
+}
+
+
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -109,10 +118,16 @@ h2 {
   font-size: 32px;
 }
 
-.one {
+/* .one {
   width: 160px;
   height: 160px;
   position: relative;
+} */
+.one {
+  display: flex;
+  align-items: center;      /* 세로 가운데 */
+  justify-content: center;  /* 가로 가운데 (필요 없으면 빼도 됨) */
+  height: 100%;
 }
 
 .two {
