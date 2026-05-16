@@ -30,7 +30,7 @@
   <meta property="og:url" content="https://seohuibae.github.io/">
   <meta property="og:title" content="Seohui Bae (배서희) | LG AI Research, KAIST">
   <meta property="og:description" content="Portfolio, publications, projects, and research by Seohui Bae (배서희).">
-  <meta property="og:image" content="https://seohuibae.github.io/images/profile.png">
+  <meta property="og:image" content="https://seohuibae.github.io/images/SeohuiBae.JPG">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Seohui Bae (배서희) | LG AI Research, KAIST">
@@ -124,33 +124,10 @@
 		My research interests include the following topics: </p>  -->
 				  <p> My research focuses on building AI systems that can model,
 decide, and adapt in complex environments. I study three complementary directions: </p>
-		<ul> 
-			<!-- <li>Online RL for Vision/Language Agents and Exploratory Decision Making in Embodied Environments</li> -->
-			<li><b>Agent Decision-Making</b>: RL and planning methods for intelligent agents in dynamic environments, with a focus
-on exploration and information-seeking behavior.</li>
-			<ul>
-				<li>Align as Act: Innovation-Based Policy Optimization for LLM Agent</li>
-				<li><a href="https://arxiv.org/abs/2512.24461">Align While Search: Belief-Guided Exploratory Inference for World-Grounded Embodied Agents</a></li>
-			</ul>
-			<!-- <li><b>World Models for Prediction and Planning</b>:	 -->
-			<li><b>World Models & Forecasting</b>:
-			<!-- Learning predictive models of complex systems that enable forecasting complex processes, simulation, and model-based reasoning</li>-->
-				<!-- Learning predictive models to forecast complex processes, simulate possible futures, and support model-based planning and decision-making.</li> -->
-			Learning predictive models for forecasting, simulation, and model-based planning.</li>
-				<!-- <li>Model-based RL and Multimodal Forecasting under Distribution Shifts</li> -->
-			<ul>
-				<li>Language-Agent Forecasting with World-Model Surrogates under Delayed Feedback</li>
-				<li><a href="https://arxiv.org/abs/2512.10229">Adaptive Information Routing for Multimodal Time Series Forecasting</a></li>
-			</ul>
-			<!-- <li>Robust Generalization under Distribution Shifts</li>-->
-			<li><b>Robust Learning under Distribution Shift</b>:
-			Learning algorithms for reliable generalization under changing distribution.</li>
-			<ul>
-				<li>Geometry-Aware Normalization for Imbalanced Time-series Forecasting</li>
-				<li><a href="https://openreview.net/pdf?id=BqIxUKqrdD">ShERPA: Shifting basin for Enhanced Robustness via Permuted Activations</a></li>
-				<li><a href="https://arxiv.org/pdf/2307.04550">Gradient Surgery for One-shot Unlearning on Generative Model</a></li>
-				<li><a href="https://ojs.aaai.org/index.php/AAAI/article/view/16131">GTA: Graph Truncated Attention for Retrosynthesis</a></li>
-			</ul>
+		<ul>
+			<li><b>Agent Decision-Making</b>: RL and planning methods for intelligent agents in dynamic environments, with a focus on exploration and information-seeking behavior. [<a href="#pub-p2">P2</a>, <a href="#pub-p3">P3</a>, <a href="#pub-c1">C1</a>]</li>
+			<li><b>World Models & Agent Environments</b>: Building grounded, scalable environments and learning predictive models of dynamics for simulation and model-based reasoning. [<a href="#pub-p3">P3</a>, <a href="#pub-p4">P4</a>]</li>
+			<li><b>Robust Learning under Distribution Shift</b>: Learning algorithms for reliable generalization under changing distribution. [<a href="#pub-p1">P1</a>]</li>
 		</ul>
 	        <p>
 	          I regularly contribute to academic publications and collaborative research projects. 
@@ -160,28 +137,16 @@ on exploration and information-seeking behavior.</li>
             </tr>
           </tbody></table>
 
+<!--
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            
-           
             <tr>
               <td style="padding:20px;width:35%;vertical-align:middle">
 		      <h2>Interests</h2> <br>
 		      <ul>
-			      <!-- <li>world model & decision-making</li> 
-			      <li>out-of-distribution generalization</li> 
-				  <li>large-model systems & inference-time efficiency</li> -->
-				  <!-- <li>Reinforcement Learning</li></li> 
-			      <li>Model-based Learning and World Models</li> 
-				  <li>Large-model Inference and Reasoning</li> -->
-				  <!-- <li>Agentic AI</li> -->
-				  <!-- <li>Reinforcement Learning</li></li> -->
-				  <!-- <li>Decision-Making under Uncertainty</li> -->
 				  <li>Foundation Model-based Agents</li>
 				  <li>World Models for Embodied Reasoning</li>
-				  <!-- <li>Robust Decision-Making under Uncertainty</li> -->
 				  <li>Reinforcement Learning</li>
 		      </ul>
-			
               </td>
               <td style="padding:8px;width:65%;vertical-align:middle">
                 <h2>Education</h2> <br>
@@ -198,23 +163,74 @@ on exploration and information-seeking behavior.</li>
               </td>
             </tr>
           </tbody></table>
+-->
+
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
       <td style="padding:20px;width:100%;vertical-align:middle">
         <h2>Selected Publications</h2>
-        <p style="font-size:small;">(* equal contribution; † co-corresponding)</p>
+        <p style="font-size:small;">(* equal contribution; † corresponding author)</p>
+        <p style="font-size:small; color:#666;">[C#] conferences; [P#] preprints/under review</p>
         <ul style="list-style: none; padding-left: 0;">
-          <li style="margin-bottom: 18px;">
-            <span class="papertitle"><strong>Align While Search: Belief-Guided Exploratory Inference for World-Grounded Embodied Agents</strong></span>
+          <!-- <li id="pub-p1" style="margin-bottom: 14px;">
+            [P1] <span class="papertitle"><strong>Grounding Agent Environments in Real-World API Traces</strong></span>
+            [pdf]
+            <br>
+            <strong>Seohui Bae</strong>, Dongmin Kim, Sanghyu Yoon, Youngjoon Park, Soonyoung Lee
+            <br>
+            <em>under review</em>
+          </li> -->
+          <li id="pub-p4" style="margin-bottom: 14px;">
+            [P4] <span class="papertitle"><strong>PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation</strong></span>
+            <a href="https://seohuibae.github.io/pcbworld-page/">[project]</a>
+            <br>
+            Hyungseok Song*, Junseok Park*, Won-Seok Choi*, <strong>Seohui Bae</strong>, Han-Seul Jeong, Youngjoon Park†, Soonyoung Lee†
+            <br>
+            <em>under review</em>
+            <br>
+            KDD Workshop on Evaluation and Trustworthiness of Agentic AI, 2026
+          </li>
+          <li id="pub-p3" style="margin-bottom: 14px;">
+            [P3] <span class="papertitle"><strong>Code-to-Explore: Verifiable Programs for OOD Exploration in LLM Agents</strong></span>
+            [pdf]
+            <br>
+            <strong>Seohui Bae</strong>, Whiyoung Jung, Youngjoon Park, Soonyoung Lee
+            <br>
+            <em>under review</em>
+            <br>
+            ICML Workshop on Reinforcement Learning on World Feedback, 2026 
+          </li>
+          <li id="pub-p2" style="margin-bottom: 14px;">
+            [P2] <span class="papertitle"><strong>Align as Act: Innovations-Based Reward Decomposition for LLM Agents</strong></span>
+            [pdf]
+            <br>
+            Sojeong Rhee*, <strong>Seohui Bae*</strong>, Whiyoung Jung, Woohyung Lim, Soonyoung Lee, Youngchul Sung
+            <br>
+            <em>preprint</em>, 2026
+          </li>
+          <li id="pub-c1" style="margin-bottom: 14px;">
+            [C1] <span class="papertitle"><strong>Align While Search: Belief-Guided Exploratory Inference for World-Grounded Embodied Agents</strong></span>
             <a href="https://arxiv.org/pdf/2512.24461">[pdf]</a>
             <br>
             <strong>Seohui Bae</strong>, Jeonghye Kim, Youngchul Sung, Woohyung Lim
             <br>
-            <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em>
+            <a href="https://cvpr.thecvf.com/">Conference on Computer Vision and Pattern Recognition (CVPR)</a>, 2026
+            <br>
+            ICML Workshop on Exploration in AI Today, 2025
+          </li>
+          <li id="pub-p1" style="margin-bottom: 14px;">
+            [P1] <span class="papertitle"><strong>Geometry-Aware Normalization for Imbalanced Time-series Forecasting</strong></span>
+            [pdf]
+            <br>
+            <strong>Seohui Bae</strong>, Junhyeok Kang, Jun Seo, Soyeon Park, Wonbin Ahn, Soonyoung Lee
+            <br>
+            <em>preprint</em>, 2025
           </li>
         </ul>
+
+        
       </td>
     </tr>
   </tbody>
@@ -233,18 +249,13 @@ on exploration and information-seeking behavior.</li>
 	          <li>Demand Forecasting</li>
 				<li>Industrial Optimization</li>
 	        </ul>
-	
-	        <!-- <p><strong>Ongoing Research</strong></p>
-	        <ul>
-				<li><strong>Online Rule Learning in Vision–Language Agents</strong>: continually turns implicit interaction rules into actionable policies.</li>
-	          <li><strong>Decision Tree-Based Model Adaptation</strong>: using symbolic structure to guide low-cost adaptation of pretrained agents.</li>
-	        </ul> -->
+
 	      </td>
 	    </tr>
 	  </tbody>
 	</table>
 
-	<!-- <table style="width:100%; border:0; border-spacing:0; border-collapse:separate; margin:0 auto;">
+	<table style="width:100%; border:0; border-spacing:0; border-collapse:separate; margin:0 auto;">
 	  <tbody>
 	    <tr>
 	      <td style="padding:20px; width:100%; vertical-align:middle;">
@@ -272,7 +283,7 @@ on exploration and information-seeking behavior.</li>
 	      </td>
 	    </tr>
 	  </tbody>
-	</table> -->
+	</table>
 
 
 	<table style="width:100%; border:0; border-spacing:0; border-collapse:separate; margin:0 auto;">
@@ -282,7 +293,7 @@ on exploration and information-seeking behavior.</li>
 	        <h2 >Academic Service</h2>
 	        <p><strong>Conference / Journal Reviewer</strong></p>
 	        <ul>
-	          <li>Conferences: ICML, NeurIPS, ICLR, AAAI, AISTATS</li>
+	          <li>Conferences: ICML <em style="color:#666; font-size:0.9em;">(Top Reviewer, 2026)</em>, NeurIPS, ICLR, AAAI, AISTATS</li>
 	          <li>Workshops / Shorts: AAAI, ICLR, ICML</li>
 	          <li>Journals: ACM Computing Surveys</li>
 	        </ul>
@@ -297,7 +308,7 @@ on exploration and information-seeking behavior.</li>
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Last date of update: 2026-02-21 / <a href="https://github.com/jonbarron/jonbarron_website">template</a>
+                  Last date of update: 2026-05-16 / <a href="https://github.com/jonbarron/jonbarron_website">template</a>
                 </p>
               </td>
             </tr>
